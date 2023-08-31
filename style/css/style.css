@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+body header {
+  height: 60%;
+}
+body header nav {
+  height: 40%;
+}
+body header nav .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: whitesmoke;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+body header nav .top .text h1 {
+  font-size: 2rem;
+  color: blue;
+}
+body header nav .top .text h1 span {
+  font-family: algerian;
+}
+body header nav .top .button button {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: blue;
+  border: none;
+  color: white;
+}
+
+.navbar-nav {
+  justify-content: space-around !important;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  color: blue;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.navbar {
+  box-shadow: 10px 10px 8px #888888;
+}/*# sourceMappingURL=style.css.map */
